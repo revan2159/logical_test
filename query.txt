@@ -1,9 +1,11 @@
-
+/// salah donggg 
 SELECT tb_mahasiswa.mhs_nama, MAX(tb_mahasiswa_nilai.nilai) AS nilai_max
 FROM tb_mahasiswa_nilai
 INNER JOIN tb_mahasiswa ON tb_mahasiswa_nilai.mhs_id = tb_mahasiswa.mhs_id
 GROUP BY tb_mahasiswa_nilai.mhs_id
 
+
+//tabf beber ini 
 SELECT tb_mahasiswa.mhs_nama, tb_mahasiswa_nilai.nilai
 FROM tb_mahasiswa_nilai
 INNER JOIN tb_mahasiswa ON tb_mahasiswa_nilai.mhs_id = tb_mahasiswa.mhs_id
